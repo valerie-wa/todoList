@@ -1,7 +1,7 @@
 body { 
     background-color: #6fadcf; 
     font-family: monospace, sans-serif; 
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -15,4 +15,30 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 400px;
+}
+#todoForm input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#todoForm button {
+    padding: 5px 10px;
+    background-color: #4d8cad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#todoForm button:hover {
+    background-color: #3a6f8a;
+}
+/*to do list & todo list li */
+#todoList {
+    list-style-type:circle;
+}
+#todoList li {
+    background-color: #f9f9f9;
+    width: 90%;
+    text-wrap: balance;
+    padding: 4px;
 }
