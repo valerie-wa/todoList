@@ -34,7 +34,7 @@ body {
 }
 /*to do list & todo list li */
 #todoList {
-    list-style-type:circle;
+    list-style-type: none;
 }
 #todoList li {
     background-color: #f9f9f9;
